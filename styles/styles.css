@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
+/* ===================================================
+CALCULATOR
+=================================================== */
+.calculator-box {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas: "title switcher" "readout readout" "key-box key-box";
+  max-width: 375px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.calculator-title {
+  color: white;
+  font-size: 1.25rem;
+}
+
+/* Readout */
+.readout {
+  background-color: #182034;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  grid-area: readout;
+  max-width: 350px;
+  padding: 1.6rem 1.4rem 1.2rem;
+  text-align: right;
+}
+
+/* Keys */
+.key-box {
+  background-color: #232c43;
+  border-radius: 5px;
+  display: grid;
+  gap: 1rem;
+  grid-area: key-box;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.25rem;
+}
+
+.num-key {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #b4a597;
+  color: #444b5a;
+  cursor: pointer;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.65rem 0 0.25rem;
+  text-transform: uppercase;
+}
+
+.del {
+  background-color: #637097;
+  box-shadow: 0 2px 0 #404e72;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.reset {
+  background-color: #637097;
+  box-shadow: 0 2px 0 #404e72;
+  color: white;
+  grid-column: span 2;
+  font-size: 0.85rem;
+  padding: 0.85rem 0 0.55rem;
+}
+
+.equals {
+  background-color: #d03f2f;
+  box-shadow: 0 2px 0 #93261a;
+  color: white;
+  font-size: 0.85rem;
+  grid-column: span 2;
+  padding: 0.85rem 0 0.55rem;
+}
+
+/* ===================================================
+LAYOUT
+=================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content {
+  align-items: center;
+  background-color: #3a4764;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+/* ===================================================
+TYPOGRAPHY
+=================================================== */
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.attribution {
+  color: #eae3dc;
+  font-family: "Spartan", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #d03f2f;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.attribution div {
+  margin-top: 0.35rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

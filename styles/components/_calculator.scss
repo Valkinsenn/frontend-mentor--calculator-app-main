@@ -1,0 +1,88 @@
+/* ===================================================
+CALCULATOR
+=================================================== */
+
+@use "../abstracts/" as a;
+
+.calculator-box {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "title switcher"
+    "readout readout"
+    "key-box key-box";
+  max-width: 375px;
+  padding: 1rem;
+  width: 100%;
+}
+
+.calculator-title {
+  color: a.$theme-1-text-color-2;
+  font-size: 1.25rem;
+}
+
+/* Readout */
+
+.readout {
+  background-color: a.$theme-1-bg-color-3;
+  border: none;
+  border-radius: 5px;
+  color: a.$theme-1-text-color-2;
+  font-family: a.$body-font;
+  font-size: 32px;
+  font-weight: 700;
+  grid-area: readout;
+  max-width: 350px;
+  padding: 1.6rem 1.4rem 1.2rem;
+  text-align: right;
+}
+
+/* Keys */
+
+.key-box {
+  background-color: a.$theme-1-bg-color-2;
+  border-radius: 5px;
+  display: grid;
+  gap: 1rem;
+  grid-area: key-box;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1.25rem;
+}
+
+.num-key {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 a.$theme-1-normal-key-shadow;
+  color: a.$theme-1-text-color-1;
+  cursor: pointer;
+  font-family: a.$body-font;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.65rem 0 0.25rem;
+  text-transform: uppercase;
+}
+
+.del {
+  background-color: a.$theme-1-operation-key-color;
+  box-shadow: 0 2px 0 a.$theme-1-operation-key-shadow;
+  color: a.$theme-1-text-color-2;
+  font-size: 0.85rem;
+}
+
+.reset {
+  background-color: a.$theme-1-operation-key-color;
+  box-shadow: 0 2px 0 a.$theme-1-operation-key-shadow;
+  color: a.$theme-1-text-color-2;
+  grid-column: span 2;
+  font-size: 0.85rem;
+  padding: 0.85rem 0 0.55rem;
+}
+
+.equals {
+  background-color: a.$theme-1-function-key-color;
+  box-shadow: 0 2px 0 a.$theme-1-function-key-shadow;
+  color: a.$theme-1-text-color-2;
+  font-size: 0.85rem;
+  grid-column: span 2;
+  padding: 0.85rem 0 0.55rem;
+}

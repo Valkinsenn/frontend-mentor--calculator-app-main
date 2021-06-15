@@ -1,0 +1,29 @@
+/* ===================================================
+TYPOGRAPHY
+=================================================== */
+
+@use "../abstracts/" as a;
+
+body {
+  font-family: a.$body-font;
+}
+
+.attribution {
+  color: a.$theme-1-normal-key-color;
+  font-family: a.$body-font;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: a.$theme-1-function-key-color;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.attribution div {
+  margin-top: 0.35rem;
+}
