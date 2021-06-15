@@ -80,10 +80,22 @@ CALCULATOR
   font-family: a.$body-font;
   font-size: 32px;
   font-weight: 700;
+  display: grid;
+  row-gap: 0.5rem;
   grid-area: readout;
-  width: 100%;
+  grid-template-areas:
+    "previous-operand"
+    "current-operand";
+  grid-template-rows: repeat(2, 1fr);
+  height: 105px;
+  overflow-x: hidden;
   padding: 1.6rem 1.4rem 1.2rem;
   text-align: right;
+  width: 100%;
+}
+
+.previous-operand {
+  font-size: 12px;
 }
 
 /* Keys */

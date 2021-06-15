@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="page-content">
-      <form class="calculator-box">
+      <div class="calculator-box">
         <h1 class="calculator-title">calc</h1>
         <div class="theme-switcher">
           <h1 class="toggle-label">theme</h1>
@@ -28,34 +28,31 @@
             <div class="switcher"></div>
           </div>
         </div>
-        <input
-          class="readout"
-          id="readout"
-          name="readout"
-          placeholder="123,456"
-          type="text"
-        />
-        <div class="key-box">
-          <button class="num-key">7</button>
-          <button class="num-key">8</button>
-          <button class="num-key">9</button>
-          <button class="num-key operation-key">Del</button>
-          <button class="num-key">4</button>
-          <button class="num-key">5</button>
-          <button class="num-key">6</button>
-          <button class="num-key">+</button>
-          <button class="num-key">1</button>
-          <button class="num-key">2</button>
-          <button class="num-key">3</button>
-          <button class="num-key">-</button>
-          <button class="num-key">.</button>
-          <button class="num-key">0</button>
-          <button class="num-key">/</button>
-          <button class="num-key">&times;</button>
-          <button class="num-key operation-key span-2">Reset</button>
-          <button class="num-key function-key span-2">=</button>
+        <div class="readout">
+          <div calc-previous-operand class="previous-operand"></div>
+          <div calc-current-operand class="current-operand"></div>
         </div>
-      </form>
+        <div class="key-box">
+          <button class="num-key" calc-number>7</button>
+          <button class="num-key" calc-number>8</button>
+          <button class="num-key" calc-number>9</button>
+          <button class="num-key operation-key" calc-delete>Del</button>
+          <button class="num-key" calc-number>4</button>
+          <button class="num-key" calc-number>5</button>
+          <button class="num-key" calc-number>6</button>
+          <button class="num-key" calc-plus>+</button>
+          <button class="num-key" calc-number>1</button>
+          <button class="num-key" calc-number>2</button>
+          <button class="num-key" calc-number>3</button>
+          <button class="num-key" calc-minus>-</button>
+          <button class="num-key" calc-number>.</button>
+          <button class="num-key" calc-number>0</button>
+          <button class="num-key" calc-divide>/</button>
+          <button class="num-key" calc-multiply>&times;</button>
+          <button class="num-key operation-key span-2" calc-reset>Reset</button>
+          <button class="num-key function-key span-2" calc-equals>=</button>
+        </div>
+      </div>
       <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -64,5 +61,6 @@
         <div>Coded by <a href="#">Your Name Here</a>.</div>
       </div>
     </div>
+    <script src="./js/index.js"></script>
   </body>
 </html>
