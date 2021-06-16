@@ -9,15 +9,18 @@ body {
 }
 
 .attribution {
-  color: a.$theme-1-normal-key-color;
+  color: var(--third-text-color);
   font-family: a.$body-font;
   font-size: 11px;
+  padding-bottom: 1rem;
   text-align: center;
+  transition: all 0.2s ease-in-out;
 }
 
 .attribution a {
-  color: a.$theme-1-function-key-color;
+  color: var(--func-key-color);
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .attribution a:hover {

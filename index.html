@@ -24,9 +24,34 @@
             <p>2</p>
             <p>3</p>
           </div>
-          <div class="switch-box">
+          <form id="switch-box" class="switch-box">
+            <input
+              aria-label="theme-1-toggler"
+              checked
+              class="theme-toggle"
+              id="theme-1"
+              name="toggle"
+              type="radio"
+              value="1"
+            />
+            <input
+              aria-label="theme-2-toggler"
+              class="theme-toggle"
+              name="toggle"
+              id="theme-2"
+              type="radio"
+              value="2"
+            />
+            <input
+              aria-label="theme-3-toggler"
+              class="theme-toggle"
+              name="toggle"
+              id="theme-3"
+              type="radio"
+              value="3"
+            />
             <div class="switcher"></div>
-          </div>
+          </form>
         </div>
         <div class="readout">
           <div calc-previous-operand class="previous-operand"></div>
@@ -61,6 +86,7 @@
         <div>Coded by <a href="#">Your Name Here</a>.</div>
       </div>
     </div>
-    <script src="./js/index.js"></script>
+    <script src="./js/calculator.js"></script>
+    <script src="./js/switcher.js"></script>
   </body>
 </html>

@@ -166,7 +166,6 @@ calcMinusKey.addEventListener("click", () => {
 })
 
 calcPlusKey.addEventListener("click", () => {
-  console.log(calcPlusKey.innerText)
   calculator.addNumber(calcPlusKey.innerText)
   calculator.updateDisplay()
 })

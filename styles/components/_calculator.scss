@@ -4,6 +4,159 @@ CALCULATOR
 
 @use "../abstracts/" as a;
 
+/* Main theme */
+:root {
+  /* BG Colors */
+  --bg-color-1: hsl(222, 26%, 31%);
+  --bg-color-2: hsl(223, 31%, 20%);
+  --bg-color-3: hsl(224, 36%, 15%);
+
+  /* Button Colors */
+  --op-btn-color: hsl(225, 21%, 49%);
+  --op-btn-hover: hsl(225, 40%, 50%);
+  --op-btn-shadow: hsl(224, 28%, 35%);
+  --func-btn-color: hsl(6, 63%, 50%);
+  --func-btn-hover: hsl(6, 80%, 50%);
+  --func-btn-shadow: hsl(6, 70%, 34%);
+  --norm-btn-color: hsl(30, 25%, 89%);
+  --norm-btn-hover: hsl(30, 5%, 70%);
+  --norm-btn-shadow: hsl(28, 16%, 65%);
+
+  /* Text Colors */
+  --text-color-1: hsl(221, 14%, 31%);
+  --text-color-2: hsl(0, 0%, 100%);
+
+  /* Theme BG Color Variables */
+  --calc-main-bg: var(--bg-color-1);
+  --calc-keybox-bg: var(--bg-color-2);
+  --calc-system-bg: var(--bg-color-3);
+
+  /* Theme BTN Color Variables */
+  --op-key-color: var(--op-btn-color);
+  --op-key-hover: var(--op-btn-hover);
+  --op-key-shadow: var(--op-btn-shadow);
+  --op-key-text: var(--text-color-2);
+  --func-key-color: var(--func-btn-color);
+  --func-key-hover: var(--func-btn-hover);
+  --func-key-shadow: var(--func-btn-shadow);
+  --func-key-text: var(--text-color-2);
+  --norm-key-color: var(--norm-btn-color);
+  --norm-key-hover: var(--norm-btn-hover);
+  --norm-key-shadow: var(--norm-btn-shadow);
+
+  /* Theme Text Color Variables */
+  --primary-text-color: var(--text-color-1);
+  --third-text-color: var(--text-color-2);
+  --secondary-text-color: var(--text-color-2);
+}
+
+.theme-2 {
+  /* BG Colors */
+  --bg-color-1: hsl(0, 0%, 90%);
+  --bg-color-2: hsl(0, 5%, 81%);
+  --bg-color-3: hsl(0, 0%, 93%);
+
+  /* Button Colors */
+  --op-btn-color: hsl(185, 42%, 37%);
+  --op-btn-hover: hsl(185, 30%, 50%);
+  --op-btn-shadow: hsl(185, 58%, 25%);
+  --func-btn-color: hsl(25, 98%, 40%);
+  --func-btn-hover: hsl(25, 75%, 50%);
+  --func-btn-shadow: hsl(25, 99%, 27%);
+  --norm-btn-color: hsl(45, 7%, 89%);
+  --norm-btn-hover: hsl(45, 3%, 73%);
+  --norm-btn-shadow: hsl(35, 11%, 61%);
+
+  /* Text Colors */
+  --text-color-1: hsl(60, 10%, 19%);
+  --text-color-2: hsl(0, 0%, 100%);
+
+  /* Theme BG Color Variables */
+  --calc-main-bg: var(--bg-color-1);
+  --calc-keybox-bg: var(--bg-color-2);
+  --calc-system-bg: var(--bg-color-3);
+
+  /* Theme BTN Color Variables */
+  --op-key-color: var(--op-btn-color);
+  --op-key-hover: var(--op-btn-hover);
+  --op-key-shadow: var(--op-btn-shadow);
+  --op-key-text: var(--text-color-2);
+  --func-key-color: var(--func-btn-color);
+  --func-key-hover: var(--func-btn-hover);
+  --func-key-shadow: var(--func-btn-shadow);
+  --norm-key-color: var(--norm-btn-color);
+  --func-key-text: var(--text-color-2);
+  --norm-key-hover: var(--norm-btn-hover);
+  --norm-key-shadow: var(--norm-btn-shadow);
+
+  /* Theme Text Color Variables */
+  --primary-text-color: var(--text-color-1);
+  --secondary-text-color: var(--text-color-2);
+  --third-text-color: var(--text-color-1);
+}
+
+.theme-3 {
+  /* BG Colors */
+  --bg-color-1: hsl(268, 75%, 9%);
+  --bg-color-2: hsl(268, 71%, 12%);
+
+  /* Button Colors */
+  --op-btn-color: hsl(281, 89%, 26%);
+  --op-btn-hover: hsl(281, 73%, 40%);
+  --op-btn-shadow: hsl(285, 91%, 52%);
+  --func-btn-color: hsl(176, 100%, 44%);
+  --func-btn-hover: hsl(176, 75%, 31%);
+  --func-btn-shadow: hsl(177, 92%, 70%);
+  --norm-btn-color: hsl(268, 47%, 21%);
+  --norm-btn-hover: hsl(268, 35%, 33%);
+  --norm-btn-shadow: hsl(290, 70%, 36%);
+
+  /* Text Colors */
+  --text-color-1: hsl(52, 100%, 62%);
+  --text-color-2: hsl(198, 20%, 13%);
+  --text-color-3: hsl(0, 0%, 100%);
+
+  /* Theme BG Color Variables */
+  --calc-main-bg: var(--bg-color-1);
+  --calc-keybox-bg: var(--bg-color-2);
+  --calc-system-bg: var(--bg-color-2);
+
+  /* Theme BTN Color Variables */
+  --op-key-color: var(--op-btn-color);
+  --op-key-hover: var(--op-btn-hover);
+  --op-key-shadow: var(--op-btn-shadow);
+  --op-key-text: var(--text-color-3);
+  --func-key-color: var(--func-btn-color);
+  --func-key-hover: var(--func-btn-hover);
+  --func-key-shadow: var(--func-btn-shadow);
+  --norm-key-color: var(--norm-btn-color);
+  --norm-key-hover: var(--norm-btn-hover);
+  --func-key-text: var(--text-color-2);
+  --norm-key-shadow: var(--norm-btn-shadow);
+
+  /* Theme Text Color Variables */
+  --func-key-text-color: var(--text-color-3);
+  --primary-text-color: var(--text-color-1);
+  --third-text-color: var(--text-color-1);
+  --secondary-text-color: var(--text-color-2);
+  --title-text-color: var(--text-color-1);
+}
+
+/* Main Page Wrapper */
+
+.page-content {
+  align-items: center;
+  background-color: var(--calc-main-bg);
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Main Calculator Box */
+
 .calculator-box {
   display: grid;
   gap: 1rem;
@@ -11,17 +164,24 @@ CALCULATOR
     "title switcher"
     "readout readout"
     "key-box key-box";
-  max-width: 375px;
-  padding: 1rem;
+  max-width: 570px;
+  padding: 0.5rem 1rem 1rem;
   width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .calculator-box {
+    padding: 0.5rem 0 1rem;
+  }
 }
 
 /* Title Box */
 
 .calculator-title {
-  color: a.$theme-1-text-color-2;
+  color: var(--third-text-color);
   align-self: end;
-  font-size: 1.25rem;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
 }
 
 /* Theme Switcher Box */
@@ -39,44 +199,77 @@ CALCULATOR
 
 .toggle-label {
   align-self: end;
-  color: a.$theme-1-text-color-2;
-  font-size: 0.5rem;
+  color: var(--third-text-color);
+  font-size: 0.75rem;
   grid-area: title;
+  letter-spacing: 0.1rem;
   margin-bottom: 0.05rem;
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
 .numbers-box {
   align-self: end;
-  color: a.$theme-1-text-color-2;
+  color: var(--third-text-color);
   display: flex;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
   grid-area: numbers;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 0.6rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .switch-box {
-  background-color: a.$theme-1-bg-color-3;
+  background-color: var(--calc-system-bg);
   border-radius: 15px;
+  display: flex;
   grid-area: switch-box;
-  padding: 0.2rem;
-  width: 45px;
+  justify-content: space-between;
+  padding: 0.15rem 0.2rem 0.2rem;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  width: 78px;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  height: 20px;
+  opacity: 0;
+  width: 20px;
 }
 
 .switcher {
-  background-color: a.$theme-1-function-key-color;
+  background-color: var(--func-key-color);
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 17px;
+  left: 4px;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(2px);
+  transition: all 0.2s ease-in-out;
+  width: 17px;
+}
+
+.theme-toggle[value="1"]:checked ~ .switcher {
+  left: 4px;
+}
+
+.theme-toggle[value="2"]:checked ~ .switcher {
+  left: 30px;
+}
+
+.theme-toggle[value="3"]:checked ~ .switcher {
+  left: 56px;
 }
 
 /* Readout */
 
 .readout {
-  background-color: a.$theme-1-bg-color-3;
+  background-color: var(--calc-system-bg);
   border: none;
   border-radius: 5px;
-  color: a.$theme-1-text-color-2;
+  color: var(--third-text-color);
   font-family: a.$body-font;
   font-size: 32px;
   font-weight: 700;
@@ -91,6 +284,7 @@ CALCULATOR
   overflow-x: hidden;
   padding: 1.6rem 1.4rem 1.2rem;
   text-align: right;
+  transition: all 0.2s ease-in-out;
   width: 100%;
 }
 
@@ -101,75 +295,109 @@ CALCULATOR
 /* Keys */
 
 .key-box {
-  background-color: a.$theme-1-bg-color-2;
+  background-color: var(--calc-keybox-bg);
   border-radius: 5px;
   display: grid;
-  gap: 1.15rem;
+  gap: 1rem 0.85rem;
   grid-area: key-box;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   padding: 1.25rem;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .num-key {
-  background-color: a.$theme-1-normal-key-color;
+  align-items: center;
+  background-color: var(--norm-key-color);
   border: none;
   border-radius: 5px;
-  box-shadow: 0 3px 0 a.$theme-1-normal-key-shadow;
-  color: a.$theme-1-text-color-1;
+  box-shadow: 0 4px 0 var(--norm-key-shadow);
+  color: var(--primary-text-color);
   cursor: pointer;
-  font-family: a.$body-font;
-  font-size: 1.25rem;
+  display: flex;
+  font-family: "Spartan", sans-serif;
+  font-size: 1.75rem;
   font-weight: 700;
-  padding: 0.65rem 0 0.25rem;
+  justify-content: center;
   text-transform: uppercase;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .num-key:hover {
-  background-color: scale-color(a.$theme-1-normal-key-color, $blackness: 25%);
+  background-color: var(--norm-key-hover);
 }
 
 .num-key:active {
-  box-shadow: 0 0 0 a.$theme-1-normal-key-shadow;
-  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--norm-key-hover);
+  transform: translateY(4px);
+}
+
+.operation-key,
+.function-key {
+  font-size: 1.05rem;
 }
 
 .operation-key {
-  color: a.$theme-1-text-color-2;
-  background-color: a.$theme-1-operation-key-color;
-  box-shadow: 0 3px 0 a.$theme-1-operation-key-shadow;
-  font-size: 0.85rem;
+  color: var(--op-key-text);
+  background-color: var(--op-key-color);
+  box-shadow: 0 4px 0 var(--op-key-shadow);
 }
 
 .operation-key:hover {
-  background-color: scale-color(
-    a.$theme-1-operation-key-color,
-    $saturation: 20%
-  );
+  background-color: var(--op-key-hover);
 }
 
 .operation-key:active {
-  box-shadow: 0 0 0 a.$theme-1-operation-key-shadow;
-  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--op-key-shadow);
+  transform: translateY(4px);
 }
 
 .function-key {
-  background-color: a.$theme-1-function-key-color;
-  box-shadow: 0 3px 0 a.$theme-1-function-key-shadow;
-  color: a.$theme-1-text-color-2;
-  font-size: 0.85rem;
-  padding: 0.85rem 0 0.55rem;
+  background-color: var(--func-key-color);
+  box-shadow: 0 4px 0 var(--func-key-shadow);
+  color: var(--func-key-text);
+  padding: 1.4rem 0 1.2rem;
 }
 
 .function-key:hover {
-  background-color: scale-color(a.$theme-1-function-key-color, $blackness: 20%);
+  background-color: var(--func-key-hover);
 }
 
 .function-key:active {
-  box-shadow: 0 0 0 a.$theme-1-function-key-shadow;
-  transform: translateY(3px);
+  box-shadow: 0 0 0 var(--func-btn-shadow);
+  transform: translateY(4px);
 }
 
 .span-2 {
   grid-column: span 2;
+}
+
+@media screen and (min-width: 576px) {
+  .readout {
+    border-radius: 10px;
+    font-size: 48px;
+    height: 130px;
+  }
+
+  .previous-operand {
+    font-size: 16px;
+  }
+
+  .key-box {
+    border-radius: 10px;
+    gap: 1.75rem 1.5rem;
+    grid-template-columns: repeat(4, 101px);
+    grid-template-rows: repeat(5, 60px);
+    padding: 2rem;
+  }
+
+  .num-key {
+    border-radius: 10px;
+    font-size: 1.95rem;
+  }
+
+  .operation-key,
+  .function-key {
+    font-size: 1.2rem;
+  }
 }
