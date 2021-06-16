@@ -1,94 +1,76 @@
-# Frontend Mentor - Calculator app
+# Frontend Mentor: Calculator app solution
 
-![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
+This is my solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+### The challenge
 
-## The challenge
-
-Your challenge is to build out this calculator app and get it looking as close to the design as possible.
-
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
-
-Your users should be able to:
+Users should be able to:
 
 - See the size of the elements adjust based on their device's screen size
-- Perform mathematical operations like addition, subtraction, multiplication, and division
+- Perform mathmatical operations like addition, subtraction, multiplication, and division
 - Adjust the color theme based on their preference
-- **Bonus**: Have their initial theme preference checked using `prefers-color-scheme` and have any additional changes saved in the browser
+- **Bonus**: Have their theme preference saved in the browser, with the theme being loaded upon the page being loaded.
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+### Screenshot
 
-## Where to find everything
+![Final Screenshots](./screenshots/final-screenshot.jpg)
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Here are the final screenshots of this project, which honestly took a bit longer than I thought it would due to my unfamiliarity with certain aspects of the coding side of this. To be honest, I'd never created a calculator app before, or implemented one with a theme slider that could save the last selected theme to the browser, but I guess it helps to know how to do it now. :)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [Here's a link to the Github repository](https://github.com/Valkinsenn/frontend-mentor--calculator-app-main).
+- Live Site URL: [And here's this bad boy in action](https://valkinsenn.github.io/frontend-mentor--calculator-app-main/).
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Built with
 
-## Building your project
+- HTML5 markup
+- Custom CSS
+- CSS Grid
+- CSS Flexbox
+- Mobile-first design
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+### What I learned
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Well, first and foremost, I learned how to create a working calculator app. It's nothing as glamorous as a graphic calculator, but it still works as its supposed to, and that's what matters. I also learned about ways to create a working theme switcher too, along with saving the last selected theme on a user's browser so it automatically loads the next time the page is loaded.
 
-## Deploying your project
+### Continued development
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+Just for kicks, I'd like to add some 3D stuff to this project, and maybe add in some glassmorphism styling, too.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+### Useful resources
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+- [Google](https://www.google.com) - Probably **the** most valuable tool in a web developers arsenal, frontend or backend. Any search engine would do, though.
+- [Kevin Powell | Dark mode theme switch example](https://codepen.io/kevinpowell/pen/EMdjOV?editors=0010) - This Codepen and the corresponding video [here](https://www.youtube.com/watch?v=wodWDIdV9BY) was instrumental in helping me to understand how to create themes to switch back and forth between at will. It also helped me better understand storing stuff, like theme data, in the browser's cache.
+- [Stack Overflow | Watching a form for changes](https://stackoverflow.com/questions/10760847/entire-form-onchange) - This gave me a quick refresher on getting JavaScript to watch a form for changes.
+- [Stack Overflow | Getting JavaScript to swap between different radio buttons](https://stackoverflow.com/a/16108679) - This helped with getting JavaScript to change which radio buttons a checked in a form.
+- [Web Dev Simplified | Building a Calculator with JavaScript](https://www.youtube.com/watch?v=j59qQ7YWLxw) - I could not have gotten the calculator to function properly without this invaluable tutorial. It also helped reinforce my budding knowledge of JavaScript classes (still got a ways to go, though).
 
-## Create a custom `README.md`
+## Author
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- Website - I'm working on it, danget! lol
+- Frontend Mentor - [@valkinsenn](https://www.frontendmentor.io/profile/valkinsenn)
+- Twitter - [@valkinsenn](https://www.twitter.com/valkinsenn)
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+## Acknowledgments
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- **Kevin Powell**. Without a doubt, the undisputed _king_ of CSS and a fantastic teacher whose tutelage I honestly couldn't live without.
+- **Web Dev Simplified**. I don't know his name off the top of my head, but he's very knowledgeable about JavaScript and CSS, and I would've been dead in the water on this project without his tutorial on how to make it happen. The link to said tutorial is under [useful resources](#useful-resources).
