@@ -59,7 +59,7 @@ Just for kicks, I'd like to add some 3D stuff to this project, and maybe add in 
 ### Useful resources
 
 - [Google](https://www.google.com) - Probably **the** most valuable tool in a web developers arsenal, frontend or backend. Any search engine would do, though.
-- [Kevin Powell | Dark mode theme switch example](https://codepen.io/kevinpowell/pen/EMdjOV?editors=0010) - This Codepen and the corresponding video helped me to better understand storing stuff in the browser's cache.
+- [Kevin Powell | Dark mode theme switch example](https://codepen.io/kevinpowell/pen/EMdjOV?editors=0010) - This Codepen and the corresponding video [here](https://www.youtube.com/watch?v=wodWDIdV9BY) was instrumental in helping me to understand how to create themes to switch back and forth between at will. It also helped me better understand storing stuff, like theme data, in the browser's cache.
 - [Stack Overflow | Watching a form for changes](https://stackoverflow.com/questions/10760847/entire-form-onchange) - This gave me a quick refresher on getting JavaScript to watch a form for changes.
 - [Stack Overflow | Getting JavaScript to swap between different radio buttons](https://stackoverflow.com/a/16108679) - This helped with getting JavaScript to change which radio buttons a checked in a form.
 - [Web Dev Simplified | Building a Calculator with JavaScript](https://www.youtube.com/watch?v=j59qQ7YWLxw) - I could not have gotten the calculator to function properly without this invaluable tutorial. It also helped reinforce my budding knowledge of JavaScript classes (still got a ways to go, though).
@@ -72,5 +72,5 @@ Just for kicks, I'd like to add some 3D stuff to this project, and maybe add in 
 
 ## Acknowledgments
 
-- **Kevin Powell**. Without a doubt, the undisputed king of CSS and a fantastic teacher with years of experience whose tutelage I couldn't live without.
+- **Kevin Powell**. Without a doubt, the undisputed _king_ of CSS and a fantastic teacher whose tutelage I honestly couldn't live without.
 - **Web Dev Simplified**. I don't know his name off the top of my head, but he's very knowledgeable about JavaScript and CSS, and I would've been dead in the water on this project without his tutorial on how to make it happen. The link to said tutorial is under [useful resources](#useful-resources).
