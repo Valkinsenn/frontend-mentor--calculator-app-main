@@ -198,12 +198,12 @@ CALCULATOR
 }
 
 .toggle-label {
-  align-self: end;
+  align-self: center;
   color: var(--third-text-color);
   font-size: 0.75rem;
   grid-area: title;
   letter-spacing: 0.1rem;
-  margin-bottom: 0.05rem;
+  margin-top: 0.25rem;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
 }
@@ -216,8 +216,13 @@ CALCULATOR
   font-weight: 700;
   grid-area: numbers;
   justify-content: space-between;
+  margin-bottom: 0.25rem;
   padding: 0 0.6rem;
   transition: all 0.2s ease-in-out;
+}
+
+.middle {
+  margin-left: 0.15rem;
 }
 
 .switch-box {
@@ -226,7 +231,7 @@ CALCULATOR
   display: flex;
   grid-area: switch-box;
   justify-content: space-between;
-  padding: 0.15rem 0.2rem 0.2rem;
+  padding: 0.1rem 0.2rem 0.2rem;
   position: relative;
   transition: all 0.2s ease-in-out;
   width: 78px;
