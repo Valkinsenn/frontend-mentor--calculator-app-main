@@ -35,7 +35,7 @@ Here are the final screenshots of this project, which honestly took a bit longer
 
 ### Links
 
-- Solution URL: [Here's a link to the Github repository](https://github.com/Valkinsenn/frontend-mentor--calculator-app-main).
+- Solution URL: [Here's a link to my solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-calculator-app-built-with-css-grid-flexbox-and-js-yRNue2qwz).
 - Live Site URL: [And here's this bad boy in action](https://valkinsenn.github.io/frontend-mentor--calculator-app-main/).
 
 ## My process
