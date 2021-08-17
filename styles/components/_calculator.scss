@@ -391,6 +391,7 @@ CALCULATOR
   .key-box {
     border-radius: 10px;
     gap: 1.75rem 1.5rem;
+    // grid-template-columns: repeat(4, 101px);
     grid-template-rows: repeat(5, 60px);
     padding: 2rem;
   }
