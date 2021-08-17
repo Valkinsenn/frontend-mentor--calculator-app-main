@@ -164,7 +164,7 @@ CALCULATOR
     "title switcher"
     "readout readout"
     "key-box key-box";
-  max-width: 570px;
+  max-width: 550px;
   padding: 0.5rem 1rem 1rem;
   width: 100%;
 }
@@ -391,7 +391,6 @@ CALCULATOR
   .key-box {
     border-radius: 10px;
     gap: 1.75rem 1.5rem;
-    grid-template-columns: repeat(4, 101px);
     grid-template-rows: repeat(5, 60px);
     padding: 2rem;
   }
